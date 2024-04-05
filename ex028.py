@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-
+import pyautogui
 
 computador = randint(0, 5)
 print('-*-' * 20)
