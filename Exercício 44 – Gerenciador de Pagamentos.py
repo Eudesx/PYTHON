@@ -1,5 +1,6 @@
-preço = float(input('Preço das compras: '))
 print(f'{' LOJAS TUDO CARO ':=^40} ')
+preço = float(input('Preço das compras: '))
+
 print('''FORMAS DE PAGAMENTO
 [ 1 ] á vista dinheiro/cheque
 [ 2 ] á vista cartão
