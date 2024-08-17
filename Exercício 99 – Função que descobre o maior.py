@@ -25,4 +25,3 @@ maior(1, 2)
 maior(6)
 maior()
 
-if
