@@ -3,6 +3,11 @@ from time import sleep
 
 
 def sorteia(lista):
+    """
+
+    :param lista: Sorteia números da lista
+    :return: Sem retorno
+    """
     print('Sorteando 5 valores da lista: ', end="")
     for cont in range(0, 5):
         n = randint(1, 10)
@@ -19,6 +24,9 @@ def somaPar(lista):
             soma += valor
     print(f'Somando os valores pares de {lista}, temos {soma}')
 
+help(sorteia)
 numeros = list()
 sorteia(numeros)
 somaPar(numeros)
+
+
